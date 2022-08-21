@@ -1,0 +1,77 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Section</title>
+    <!--Font Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/8f4b80db91.js" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <a class="brand" href="#">
+                <img src="580b57fcd9996e24bc43c470.png" alt="Brand Logo"/>
+            </a>
+            <nav>
+                <a class="nav" href="#">Home</a>
+                <a class="nav-green" href="#">Gallery</a>
+                <a class="nav" href="#">About</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="gallery">
+            <div class="container">
+                <h1 class="heading">GALLERY</h1>
+                <div class="flex">
+                    <div class="col-1">
+                        <img src="easels.jpg" width="400px" height="250px">
+                    </div>
+                    <div class="col-1">
+                        <img src="02.png">
+                    </div>
+                    <div class="col-1">
+                        <img src="03.png">
+                    </div>
+                    <div class="col-1">
+                        <img src="04.png">
+                    </div>
+                    <div class="col-1">
+                        <img src="05.png">
+                    </div>
+                    <div class="col-1">
+                        <img src="06.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+        <small class="small">
+            &COPY; Altcampus
+        </small>
+        <nav>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        </nav>
+        </div>
+    </footer>
+</body>
+</html>
